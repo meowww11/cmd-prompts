@@ -1,0 +1,14 @@
+:: List all files and folders in current directory
+dir
+
+:: List recursively
+dir /s
+
+:: Create a folder
+mkdir MyFolder
+
+:: Delete a folder
+rmdir MyFolder /s /q
+
+:: Copy a file
+copy file.txt D:\Backup\
