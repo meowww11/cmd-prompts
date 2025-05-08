@@ -1,0 +1,15 @@
+:: View IP configuration
+ipconfig
+
+:: Refresh IP address (renew)
+ipconfig /release
+ipconfig /renew
+
+:: Check connectivity to a site
+ping google.com
+
+:: View open ports and connections
+netstat -an
+
+:: DNS lookup
+nslookup openai.com
